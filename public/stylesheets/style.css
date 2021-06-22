@@ -1,6 +1,5 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -9,4 +8,79 @@ a {
 
 .checked {
   color: orange;
+}
+
+.navbar{
+  background-color: #082e31 !important;
+  margin-bottom: 3em;
+  padding: 2em;
+  color: white !important;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand{
+  color: white;
+  letter-spacing: 0.6px;
+}
+
+.navbar .nav-link, .navbar-nav{
+  float: right;
+  width: 100%;
+  margin-left: 1em;
+}
+.mr-auto > li{
+  float: right;
+  /* width: 100%; */
+  margin-left: 2em;
+  text-align: right;
+
+}
+.mr-auto{
+  float: right;
+  /* width: 100%; */
+  margin-right: 0px !important;
+  margin-inline-end: 0px !important;
+  text-align: right;
+}
+
+table th{
+  background-color: #41b3a3 !important;
+  color: white !important;
+}
+
+table td{
+  padding: 0.7em !important;
+  padding-top: 2em !important;
+}
+table tr:nth-child(even){
+  background-color: #41b3a47a;
+}
+
+.btn{
+  background-color: #af2c55cc;
+  border: 1px solid #c38d9e;
+  margin-right: 15px;
+  padding: 0em 2em;
+  color: white !important;
+  font-size: 15px;
+}
+
+.btn:hover{
+  background-color: #41b3a3;
+  border: 1px solid #c38d9e;
+  margin-right: 15px;
+  padding: 0em 2em;
+  color: white !important;
+}
+
+h1{
+  color: #082e31;
+  padding: 1em 0em;
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.main{
+  padding: 30px;
 }
